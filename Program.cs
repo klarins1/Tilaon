@@ -4,35 +4,53 @@
     {
         static void Main(string[] args)
         {
-            String Event;            
-
-            Console.WriteLine("------CALENDAR------");
-            Console.WriteLine("--------------------");
-            Console.WriteLine("1 - Event ");
-            Console.WriteLine("2 - Month / Day / Year");
-            Console.WriteLine("3 - Exit");
-            Console.WriteLine("--------------------");
-            Console.WriteLine("Enter a choices:");
-            String choices = Console.ReadLine();
-
-            switch (choices) 
+            while (true)
             {
-                case "1":
-                    Console.Write("ADD EVENT: ");
-                    Event = Console.ReadLine();
-                    Console.WriteLine("ADD SCHEDULE (MONTH / DAY / YEAR)");
-                    String dayss = Console.ReadLine();
-                    break;
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("----------CALENDAR----------");
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("1 - ADD EVENT ");
+                Console.WriteLine("2 - SHOW HOLLIDAYS");
+                Console.WriteLine("3 - EXIT");
+                Console.WriteLine("-----------------------------");
+                Console.Write("Enter ur choice: ");
+                String choices = Console.ReadLine();
 
-                case "2":
-                    Console.WriteLine("ADD SCHEDULE (MONTH / DAY / YEAR)");
-                    String daysss = Console.ReadLine();
-                    Console.Write("ADD EVENT: ");
-                    Event = Console.ReadLine();
-                    break;
-                case "3":
-                    Console.WriteLine("Exit");
-                    break;
+                switch (choices)
+                {
+                    case "1":
+                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("ADD EVENT");
+                        Console.Write("Name Of Event: ");
+                        String Event = Console.ReadLine();
+                        Console.Write("Date of Event (mm/dd/yy): ");
+                        String days = Console.ReadLine();
+                        break;
+
+                    case "2":
+
+                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("PH REGULAR HOLIDAYS");
+                        Console.WriteLine("New Year's Day ------- 01/01/26");
+                        Console.WriteLine("Maundy Thursday ------ 04/02/26");
+                        Console.WriteLine("Good Friday ---------- 04/03/26");
+                        Console.WriteLine("Araw ng Kagitingan --- 04/09/26");
+                        Console.WriteLine("Labor Day ------------ 05/01/26");
+                        Console.WriteLine("Independence Day ----- 06/12/26");
+                        Console.WriteLine("National Heroes Day -- 08/25/26");
+                        Console.WriteLine("Bonifacio Day -------- 11/30/26");
+                        Console.WriteLine("Christmas Day -------- 12/25/26");
+                        Console.WriteLine("Rizal Day ------------ 12/30/26");
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Exit");
+                        return;
+
+                    default: 
+                        Console.WriteLine("Invalid Choice");
+                        break;
+                }
             }
         }
     }

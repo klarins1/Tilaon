@@ -4,6 +4,10 @@
     {
         static void Main(string[] args)
         {
+            String[] eventname = new String[100];
+            String[] eventdate = new String[100];
+            int x=0;
+
             while (true)
             {
                 Console.WriteLine("----------------------------");
@@ -11,7 +15,8 @@
                 Console.WriteLine("----------------------------");
                 Console.WriteLine("1 - ADD EVENT ");
                 Console.WriteLine("2 - SHOW HOLLIDAYS");
-                Console.WriteLine("3 - EXIT");
+                Console.WriteLine("3 - SHOW EVENTS");
+                Console.WriteLine("4 - EXIT");
                 Console.WriteLine("-----------------------------");
                 Console.Write("Enter ur choice: ");
                 String choices = Console.ReadLine();
@@ -25,6 +30,18 @@
                         String Event = Console.ReadLine();
                         Console.Write("Date of Event (mm/dd/yy): ");
                         String days = Console.ReadLine();
+
+                        if (Event == "" && days == "")
+                        {
+                            Console.WriteLine("Event Unsuccessfully Added");
+                        }
+                        else 
+                        {
+                            eventname[x] = Event;
+                            eventdate[x] = days;
+                            x++;
+                            Console.WriteLine("Event Successfully Added");
+                        }
                         break;
 
                     case "2":
@@ -44,6 +61,16 @@
                         break;
 
                     case "3":
+
+                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("SHOW EVENTS");
+                        for (int i = 0; i < x; i++)
+                        {
+                            Console.WriteLine($"Event: {eventname[i]} \nDate: {eventdate[i]}");
+                        }
+
+                        break;
+                    case "4":
                         Console.WriteLine("Exit");
                         return;
 

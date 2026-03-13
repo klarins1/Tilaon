@@ -10,21 +10,21 @@ namespace Tilaon
 
             while (true)
             {
-                Console.WriteLine("----------------------------");
-                Console.WriteLine("----------CALENDAR----------");
-                Console.WriteLine("----------------------------");
+                Console.WriteLine("================================");
+                Console.WriteLine("============CALENDAR============");
+                Console.WriteLine("================================");
                 Console.WriteLine("1 - ADD EVENT ");
                 Console.WriteLine("2 - SHOW HOLLIDAYS");
                 Console.WriteLine("3 - SHOW EVENTS");
                 Console.WriteLine("4 - EXIT");
-                Console.WriteLine("-----------------------------");
+                Console.WriteLine("================================");
                 Console.Write("Enter ur choice: ");
                 String choices = Console.ReadLine();
 
                 switch (choices)
                 {
                     case "1":
-                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("================================");
                         Console.WriteLine("ADD EVENT");
                         Console.Write("Name Of Event: ");
                         String Event = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace Tilaon
 
                     case "2":
 
-                        Console.WriteLine("----------------------------");
+                        Console.WriteLine("================================");
                         Console.WriteLine("PH REGULAR HOLIDAYS");
                         Console.WriteLine("New Year's Day ------- 01/01/26");
                         Console.WriteLine("Maundy Thursday ------ 04/02/26");

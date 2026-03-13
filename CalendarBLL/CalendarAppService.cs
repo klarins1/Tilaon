@@ -31,7 +31,7 @@ namespace CalendarBLL
 
         public void ShowEvents()
         {
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("================================");
             Console.WriteLine("SHOW EVENTS");
             data.ShowEvents();
         }

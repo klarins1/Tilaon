@@ -1,12 +1,12 @@
-﻿namespace Tilaon
+﻿using CalendarBLL;
+
+namespace Tilaon
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            String[] eventname = new String[100];
-            String[] eventdate = new String[100];
-            int x=0;
+            CalendarAppService BLL = new CalendarAppService();
 
             while (true)
             {
@@ -30,18 +30,7 @@
                         String Event = Console.ReadLine();
                         Console.Write("Date of Event (mm/dd/yy): ");
                         String days = Console.ReadLine();
-
-                        if (Event == "" && days == "")
-                        {
-                            Console.WriteLine("Event Unsuccessfully Added");
-                        }
-                        else 
-                        {
-                            eventname[x] = Event;
-                            eventdate[x] = days;
-                            x++;
-                            Console.WriteLine("Event Successfully Added");
-                        }
+                        BLL.AddEvent(Event, days);
                         break;
 
                     case "2":
@@ -61,14 +50,7 @@
                         break;
 
                     case "3":
-
-                        Console.WriteLine("----------------------------");
-                        Console.WriteLine("SHOW EVENTS");
-                        for (int i = 0; i < x; i++)
-                        {
-                            Console.WriteLine($"Event: {eventname[i]} \nDate: {eventdate[i]}");
-                        }
-
+                        BLL.ShowEvents();
                         break;
                     case "4":
                         Console.WriteLine("Exit");

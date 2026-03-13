@@ -14,7 +14,7 @@ namespace CalendarBLL
 
         public void AddEvent(string name, string date)
         {
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(date))
+            if (name == " "  || date == " " )
             {
                 Console.WriteLine("Event Unsuccessfully Added");
                 return;

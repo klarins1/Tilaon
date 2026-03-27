@@ -11,4 +11,9 @@
     <Compile Remove="DataLogic.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CALENDARBL\CALENDARBL.csproj" />
+    <ProjectReference Include="..\CALENDARMODELS\CALENDARMODELS.csproj" />
+  </ItemGroup>
+
 </Project>

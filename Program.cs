@@ -1,4 +1,5 @@
-﻿using CalendarBLL;
+﻿using CALENDARBL;
+using CALENDARMODELS;
 
 namespace Tilaon
 {
@@ -6,7 +7,7 @@ namespace Tilaon
     {
         static void Main(string[] args)
         {
-            CalendarAppService BLL = new CalendarAppService();
+            CalendarAppService BL = new CalendarAppService();
 
             while (true)
             {
@@ -30,7 +31,7 @@ namespace Tilaon
                         String Event = Console.ReadLine();
                         Console.Write("Date of Event (mm/dd/yy): ");
                         String days = Console.ReadLine();
-                        BLL.AddEvent(Event, days);
+                        BL.AddEvent(Event, days);
                         break;
 
                     case "2":
@@ -50,7 +51,7 @@ namespace Tilaon
                         break;
 
                     case "3":
-                        BLL.ShowEvents();
+                        BL.ShowEvents();
                         break;
                     case "4":
                         Console.WriteLine("Exit");

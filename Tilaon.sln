@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11512.155 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tilaon", "Tilaon.csproj", "{7BB3C04E-3319-453A-9061-9CE466FBFC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALENDARBL", "..\CALENDARBL\CALENDARBL.csproj", "{B6BA8D28-078D-4FAE-8A35-EBD09ADF0811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALENDARDL", "..\CALENDARDL\CALENDARDL.csproj", "{A1FC3F76-9BFD-47AA-9A81-C117416B2287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALENDARMODELS", "..\CALENDARMODELS\CALENDARMODELS.csproj", "{5BCA3D9D-3BDA-4F84-846A-500007C77E96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{7BB3C04E-3319-453A-9061-9CE466FBFC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB3C04E-3319-453A-9061-9CE466FBFC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB3C04E-3319-453A-9061-9CE466FBFC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BA8D28-078D-4FAE-8A35-EBD09ADF0811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BA8D28-078D-4FAE-8A35-EBD09ADF0811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BA8D28-078D-4FAE-8A35-EBD09ADF0811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BA8D28-078D-4FAE-8A35-EBD09ADF0811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FC3F76-9BFD-47AA-9A81-C117416B2287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FC3F76-9BFD-47AA-9A81-C117416B2287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FC3F76-9BFD-47AA-9A81-C117416B2287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FC3F76-9BFD-47AA-9A81-C117416B2287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCA3D9D-3BDA-4F84-846A-500007C77E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCA3D9D-3BDA-4F84-846A-500007C77E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCA3D9D-3BDA-4F84-846A-500007C77E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCA3D9D-3BDA-4F84-846A-500007C77E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

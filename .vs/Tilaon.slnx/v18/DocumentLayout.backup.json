@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chari\\source\\repos\\Tilaon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.cs\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tilaon.cs\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chari\\source\\repos\\Tilaon\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarJson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalendarDLL\\CalendarJson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tilaon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarDataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalendarDLL\\CalendarDataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewFile",
+              "DocumentMoniker": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.cs\\NewFile",
+              "RelativeDocumentMoniker": "Tilaon.cs\\NewFile",
+              "ToolTip": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.cs\\NewFile",
+              "RelativeToolTip": "Tilaon.cs\\NewFile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-26T13:11:38.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\chari\\source\\repos\\Tilaon\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\chari\\source\\repos\\Tilaon\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-26T13:11:26.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tilaon.csproj",
+              "DocumentMoniker": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+              "RelativeDocumentMoniker": "Tilaon.csproj",
+              "ToolTip": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+              "RelativeToolTip": "Tilaon.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T12:15:33.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalendarDataService.cs",
+              "DocumentMoniker": "C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarDataService.cs",
+              "RelativeDocumentMoniker": "CalendarDLL\\CalendarDataService.cs",
+              "ToolTip": "C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarDataService.cs",
+              "RelativeToolTip": "CalendarDLL\\CalendarDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:11:13.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalendarJson.cs",
+              "DocumentMoniker": "C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarJson.cs",
+              "RelativeDocumentMoniker": "CalendarDLL\\CalendarJson.cs",
+              "ToolTip": "C:\\Users\\chari\\source\\repos\\Tilaon\\CalendarDLL\\CalendarJson.cs",
+              "RelativeToolTip": "CalendarDLL\\CalendarJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:08:16.352Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

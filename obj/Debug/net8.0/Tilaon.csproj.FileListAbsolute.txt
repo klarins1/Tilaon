@@ -1,0 +1,15 @@
+C:\Users\chari\Source\Repos\Tilaon\bin\Debug\net8.0\Tilaon.exe
+C:\Users\chari\Source\Repos\Tilaon\bin\Debug\net8.0\Tilaon.deps.json
+C:\Users\chari\Source\Repos\Tilaon\bin\Debug\net8.0\Tilaon.runtimeconfig.json
+C:\Users\chari\Source\Repos\Tilaon\bin\Debug\net8.0\Tilaon.dll
+C:\Users\chari\Source\Repos\Tilaon\bin\Debug\net8.0\Tilaon.pdb
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.AssemblyInfoInputs.cache
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.AssemblyInfo.cs
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.csproj.CoreCompileInputs.cache
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.sourcelink.json
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.dll
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\refint\Tilaon.dll
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.pdb
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\Tilaon.genruntimeconfig.cache
+C:\Users\chari\Source\Repos\Tilaon\obj\Debug\net8.0\ref\Tilaon.dll

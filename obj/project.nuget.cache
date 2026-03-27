@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "fMVZBXpd4xY=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\chari\\source\\repos\\CALENDARBL\\CALENDARBL.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+      "filePath": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+      "libraryId": "C:\\Users\\chari\\source\\repos\\CALENDARBL\\CALENDARBL.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\chari\\source\\repos\\CALENDARMODELS\\CALENDARMODELS.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+      "filePath": "C:\\Users\\chari\\source\\repos\\Tilaon\\Tilaon.csproj",
+      "libraryId": "C:\\Users\\chari\\source\\repos\\CALENDARMODELS\\CALENDARMODELS.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

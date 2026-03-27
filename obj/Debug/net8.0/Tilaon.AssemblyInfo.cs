@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tilaon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92a4f793a1fffb63c935577d4f62bf018a08bf18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c1aec92150b27b4fe41e95b53baeda6a89b5951")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tilaon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tilaon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
